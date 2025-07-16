@@ -20,6 +20,10 @@ app.use('/api/courses', courseRoutes);
 app.use('/api/videos', videoRoutes);
 app.use('/api/testimonials', testimonialRoutes);
 app.use('/api/inquiry', inquiryRoutes);
+app.get('/', (req, res) => {
+  res.send(' TopperNiti Backend is Running Successfully!');
+});
+
 
 app.use(errorHandler);
 
