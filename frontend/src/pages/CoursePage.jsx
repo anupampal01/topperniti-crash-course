@@ -26,7 +26,7 @@ const CoursePage = () => {
         <h2>Our Courses</h2>
         <div className="course-grid">
           {courses.length === 0 ? (
-            <p>No courses available yet.</p> // ✅ Fallback for empty course list
+            <p>No courses available yet.</p> 
           ) : (
             courses.map((course) => (
               <CourseCard key={course._id} course={course} />

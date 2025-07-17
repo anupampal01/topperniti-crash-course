@@ -6,10 +6,10 @@ const Navbar = () => (
     <ul>
       <li><Link to="/">Home</Link></li>
       <li><Link to="/crash-course">Crash Course</Link></li>
-      <li><Link to="/courses">Courses</Link></li> {/* ✅ Add this */}
+      <li><Link to="/courses">Courses</Link></li> 
       <li><Link to="/testimonials">Testimonials</Link></li>
     </ul>
   </nav>
 );
 
-export default Navbar; // ✅ Required for import default
+export default Navbar; 

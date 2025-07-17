@@ -55,7 +55,7 @@ const CrashCoursePage = () => {
         <h3>Demo Videos</h3>
         <div className="video-grid">
           {videos.length === 0 ? (
-            <p>No demo videos found.</p> // ✅ Fallback message
+            <p>No demo videos found.</p> 
           ) : (
             videos.map((video) => (
               <VideoModal key={video._id} videoUrl={video.url} />

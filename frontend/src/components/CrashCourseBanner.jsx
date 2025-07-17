@@ -6,7 +6,7 @@ const CrashCourseBanner = () => {
   const navigate = useNavigate();
 
   const handleRegisterClick = () => {
-    navigate('/crash-course#inquiry-form'); // 🔁 Send hash in URL
+    navigate('/crash-course#inquiry-form'); 
   };
 
   return (
